@@ -49,20 +49,6 @@ const Generator = () => {
     return password
   }
 
-//   const copyText = () => {
-//     const newText = document.createElement('textarea')
-//     newText.innerText = password
-//     document.body.appendChild(newText)
-//     newText.select()
-//     document.execCommand('copy')
-//     newText.remove()
-//   }
-
-//   const copyPassword = (e) => {
-//     copyText()
-//   }
-
-
   return (
     <div className="main-container">
       <div className="main-item">
