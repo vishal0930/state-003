@@ -82,20 +82,20 @@ const Generator = () => {
 
         <div className='checkbox-item'>
           <div>
-            <input type='checkbox' checked={includeUppercase} onChange={(e) => setIncludeUppercase(e.target.checked)}/>
-            <label>Include uppercase letters</label>
+            <input type='checkbox' id='check1' checked={includeUppercase} onChange={(e) => setIncludeUppercase(e.target.checked)}/>
+            <label for='check1'>Include uppercase letters</label>
           </div>
           <div>
-            <input type='checkbox' checked={includeLowercase} onChange={(e) => setIncludeLowercase(e.target.checked)}/>
-            <label>Include lowercase letters</label>
+            <input type='checkbox' id='check2' checked={includeLowercase} onChange={(e) => setIncludeLowercase(e.target.checked)}/>
+            <label for='check2'>Include lowercase letters</label>
           </div>
           <div>
-            <input type='checkbox' checked={includeNumbers} onChange={(e) => setIncludeNumbers(e.target.checked)}/>
-            <label>Include numbers</label>
+            <input type='checkbox' id='check3' checked={includeNumbers} onChange={(e) => setIncludeNumbers(e.target.checked)}/>
+            <label for='check3'>Include numbers</label>
           </div>
           <div>
-            <input type='checkbox' checked={includeSymbols} onChange={(e) => setIncludeSymbols(e.target.checked)}/>
-            <label>Include symbols</label>
+            <input type='checkbox' id='check4' checked={includeSymbols} onChange={(e) => setIncludeSymbols(e.target.checked)}/>
+            <label for='check4'>Include symbols</label>
           </div>
         </div>
 
